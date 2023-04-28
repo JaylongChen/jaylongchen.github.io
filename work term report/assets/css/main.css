@@ -2738,6 +2738,11 @@ input[type="radio"]:focus + label:before {
   margin: 4rem 0;
   width: 100%;
 }
+.image.logo {
+  text-align:center;
+  margin: 4rem 0;
+  width: 100%;
+}
 
 .image.main:first-child {
   margin-top: 0;
@@ -2746,7 +2751,9 @@ input[type="radio"]:focus + label:before {
 .image.main img {
   width: 80%;
 }
-
+.image.logo {
+  width: 20%;
+}
 @media screen and (max-width: 736px) {
   .image.fit {
     margin: 2rem 0;
